@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.Net.Mongo.Api", "Poc.Net.Mongo.Api\Poc.Net.Mongo.Api.csproj", "{BCFD2206-761B-4F36-B6AE-D45568AB9B73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Application", "01-Application", "{3C32E690-F13F-4DFA-B6CD-6D8504985684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Domain", "02-Domain", "{39FB1CA5-28FF-404B-A6AD-A21128C1A06F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Infrastructure", "03-Infrastructure", "{3686C246-C82E-42B5-A832-A8F9FE8E83D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Setup", "04-Setup", "{06B444F1-F271-4991-8A35-F2893DA3C2E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Test", "05-Test", "{671E7C51-A36F-47E5-9010-512F7150AFD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD8CCFAF-3E75-4AEA-8FD6-8AF2564AD8F8}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.Net.Mongo.Infra", "Poc.Net.Mongo.Infra\Poc.Net.Mongo.Infra.csproj", "{F3C5757B-4784-45B1-9374-8A7FD16803C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.Net.Mongo.Setup", "Poc.Net.Mongo.Setup\Poc.Net.Mongo.Setup.csproj", "{52EC3272-B7C7-4B66-A838-24050045A983}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.Net.Mongo.Infra.CrossCutting", "Poc.Net.Mongo.Infra.CrossCutting\Poc.Net.Mongo.Infra.CrossCutting.csproj", "{7EFE750E-56F4-48D3-A842-914D5BB83DF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.Net.Mongo.Domain", "Poc.Net.Mongo.Domain\Poc.Net.Mongo.Domain.csproj", "{1ADAC2C0-E897-4860-A235-92E69287AB68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poc.Net.Mongo.Tests", "Poc.Net.Mongo.Tests\Poc.Net.Mongo.Tests.csproj", "{EBC11ADD-50C1-4489-BBB9-54983EF2BC1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCFD2206-761B-4F36-B6AE-D45568AB9B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFD2206-761B-4F36-B6AE-D45568AB9B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFD2206-761B-4F36-B6AE-D45568AB9B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFD2206-761B-4F36-B6AE-D45568AB9B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C5757B-4784-45B1-9374-8A7FD16803C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C5757B-4784-45B1-9374-8A7FD16803C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C5757B-4784-45B1-9374-8A7FD16803C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C5757B-4784-45B1-9374-8A7FD16803C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52EC3272-B7C7-4B66-A838-24050045A983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52EC3272-B7C7-4B66-A838-24050045A983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52EC3272-B7C7-4B66-A838-24050045A983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52EC3272-B7C7-4B66-A838-24050045A983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFE750E-56F4-48D3-A842-914D5BB83DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFE750E-56F4-48D3-A842-914D5BB83DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFE750E-56F4-48D3-A842-914D5BB83DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFE750E-56F4-48D3-A842-914D5BB83DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADAC2C0-E897-4860-A235-92E69287AB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADAC2C0-E897-4860-A235-92E69287AB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADAC2C0-E897-4860-A235-92E69287AB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADAC2C0-E897-4860-A235-92E69287AB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC11ADD-50C1-4489-BBB9-54983EF2BC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC11ADD-50C1-4489-BBB9-54983EF2BC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC11ADD-50C1-4489-BBB9-54983EF2BC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC11ADD-50C1-4489-BBB9-54983EF2BC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCFD2206-761B-4F36-B6AE-D45568AB9B73} = {3C32E690-F13F-4DFA-B6CD-6D8504985684}
+		{F3C5757B-4784-45B1-9374-8A7FD16803C7} = {3686C246-C82E-42B5-A832-A8F9FE8E83D0}
+		{52EC3272-B7C7-4B66-A838-24050045A983} = {06B444F1-F271-4991-8A35-F2893DA3C2E8}
+		{7EFE750E-56F4-48D3-A842-914D5BB83DF9} = {3686C246-C82E-42B5-A832-A8F9FE8E83D0}
+		{1ADAC2C0-E897-4860-A235-92E69287AB68} = {39FB1CA5-28FF-404B-A6AD-A21128C1A06F}
+		{EBC11ADD-50C1-4489-BBB9-54983EF2BC1F} = {671E7C51-A36F-47E5-9010-512F7150AFD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {506EEE11-E282-4234-947C-4D6B2768FCF9}
+	EndGlobalSection
+EndGlobal

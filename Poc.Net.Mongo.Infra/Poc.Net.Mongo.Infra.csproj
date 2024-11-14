@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="3.0.0" />
+    <PackageReference Include="MongoDB.Driver" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Poc.Net.Mongo.Domain\Poc.Net.Mongo.Domain.csproj" />
+    <ProjectReference Include="..\Poc.Net.Mongo.Infra.CrossCutting\Poc.Net.Mongo.Infra.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>
