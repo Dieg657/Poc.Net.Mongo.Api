@@ -1,0 +1,26 @@
+services:
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: master
+      MONGO_INITDB_ROOT_PASSWORD: Master.007,01
+    ports:
+      - 27017:27017
+    networks:
+      - backend
+  webapi:
+    build: .
+    restart: always
+    networks:
+      - backend
+    depends_on:
+      - mongo
+    environment:
+      ASPNETCORE_Environment: Development
+      ConnectionStrings__MONGODB: mongodb://master:Master.007,01@mongo:27017/?authSource=admin
+      ClientDatabaseConfig__Name: CUSTOMERS
+    ports:
+      - 8080:8080
+networks:
+  backend:

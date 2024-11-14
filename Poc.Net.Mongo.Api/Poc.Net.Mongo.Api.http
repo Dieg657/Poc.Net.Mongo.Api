@@ -1,0 +1,6 @@
+@Poc.Net.Mongo.Api_HostAddress = http://localhost:5037
+
+GET {{Poc.Net.Mongo.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
